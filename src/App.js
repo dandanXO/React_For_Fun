@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './Components/HelloWorld'
 import ClassHelloWorld from './Components/ClassHelloWorld'
+import Counter from './Components/Counter'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <HelloWorld name="Dan"/>
         <ClassHelloWorld name="Dan"/>
+        <Counter></Counter>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
