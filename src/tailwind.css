@@ -18,6 +18,46 @@ code {
   padding: 0.4rem;
 }
 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -2385,6 +2425,10 @@ video {
   background-color: rgba(112, 36, 89, var(--bg-opacity));
 }
 
+.bg-black-t-50 {
+  background-color: rgba(0,0,0,0.5);
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -2945,6 +2989,10 @@ video {
   background-color: rgba(112, 36, 89, var(--bg-opacity));
 }
 
+.hover\:bg-black-t-50:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -3503,6 +3551,10 @@ video {
   --bg-opacity: 1;
   background-color: #702459;
   background-color: rgba(112, 36, 89, var(--bg-opacity));
+}
+
+.focus\:bg-black-t-50:focus {
+  background-color: rgba(0,0,0,0.5);
 }
 
 .bg-none {
@@ -21009,6 +21061,10 @@ video {
     background-color: rgba(112, 36, 89, var(--bg-opacity));
   }
 
+  .sm\:bg-black-t-50 {
+    background-color: rgba(0,0,0,0.5);
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -21569,6 +21625,10 @@ video {
     background-color: rgba(112, 36, 89, var(--bg-opacity));
   }
 
+  .sm\:hover\:bg-black-t-50:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -22127,6 +22187,10 @@ video {
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-black-t-50:focus {
+    background-color: rgba(0,0,0,0.5);
   }
 
   .sm\:bg-none {
@@ -39603,6 +39667,10 @@ video {
     background-color: rgba(112, 36, 89, var(--bg-opacity));
   }
 
+  .md\:bg-black-t-50 {
+    background-color: rgba(0,0,0,0.5);
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -40163,6 +40231,10 @@ video {
     background-color: rgba(112, 36, 89, var(--bg-opacity));
   }
 
+  .md\:hover\:bg-black-t-50:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -40721,6 +40793,10 @@ video {
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-black-t-50:focus {
+    background-color: rgba(0,0,0,0.5);
   }
 
   .md\:bg-none {
@@ -58197,6 +58273,10 @@ video {
     background-color: rgba(112, 36, 89, var(--bg-opacity));
   }
 
+  .lg\:bg-black-t-50 {
+    background-color: rgba(0,0,0,0.5);
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -58757,6 +58837,10 @@ video {
     background-color: rgba(112, 36, 89, var(--bg-opacity));
   }
 
+  .lg\:hover\:bg-black-t-50:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -59315,6 +59399,10 @@ video {
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-black-t-50:focus {
+    background-color: rgba(0,0,0,0.5);
   }
 
   .lg\:bg-none {
@@ -76791,6 +76879,10 @@ video {
     background-color: rgba(112, 36, 89, var(--bg-opacity));
   }
 
+  .xl\:bg-black-t-50 {
+    background-color: rgba(0,0,0,0.5);
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -77351,6 +77443,10 @@ video {
     background-color: rgba(112, 36, 89, var(--bg-opacity));
   }
 
+  .xl\:hover\:bg-black-t-50:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -77909,6 +78005,10 @@ video {
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-black-t-50:focus {
+    background-color: rgba(0,0,0,0.5);
   }
 
   .xl\:bg-none {
