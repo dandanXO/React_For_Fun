@@ -5,12 +5,13 @@ import HelloWorld from './Components/HelloWorld'
 import ClassHelloWorld from './Components/ClassHelloWorld'
 import Counter from './Components/Counter'
 import Header from './Components/Header'
+import Footer from './Components/Footer'
 
 function App() {
   return (
     <div className="App">
         <Header></Header>
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <HelloWorld name="Dan"/>
         <ClassHelloWorld name="Dan"/>
         <Counter></Counter>
@@ -26,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-    
+      <Footer/>
     </div>
   );
 }
