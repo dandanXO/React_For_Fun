@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import HelloWorld from './Components/HelloWorld'
 import ClassHelloWorld from './Components/ClassHelloWorld'
 import Counter from './Components/Counter'
+import Header from './Components/Header'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+        <Header></Header>
         <img src={logo} className="App-logo" alt="logo" />
         <HelloWorld name="Dan"/>
         <ClassHelloWorld name="Dan"/>
@@ -25,7 +26,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+    
     </div>
   );
 }
